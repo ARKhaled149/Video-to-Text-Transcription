@@ -43,8 +43,8 @@ import os
 import subprocess
 
 # Define the path to your video file and the output directory using raw strings
-video_file_path = r"C:\Users\Abdel\Desktop\Immersive Insiders\Images and GIFs\Learn How To Create Spatial Maps and Place AR Content Immersal SDK\Learn How To Create Spatial Maps and Place AR Content | Immersal SDK.mp4"
-output_directory = r"C:\Users\Abdel\Desktop\Immersive Insiders\Images and GIFs\Learn How To Create Spatial Maps and Place AR Content Immersal SDK"
+video_file_path = r"video_path"
+output_directory = r"output_text_path"
 
 # Ensure the output directory exists
 os.makedirs(output_directory, exist_ok=True)
@@ -66,7 +66,7 @@ print("Transcription completed successfully.")
 
 ## Options
 
-- **Model Size**: The script uses a `large` model by default but can be adjusted to fit other available sizes depending on your requirements.
+- **Model Size**: The script uses a `large` model by default but can be adjusted to fit other available sizes depending on your requirements like `medium` and `small`, however the performance and accuracy are affected.
 - **Output Format**: Currently set to output text (`txt`), but can be adapted if Whisper supports other formats.
 
 ## Contribution
