@@ -26,12 +26,12 @@ The script performs the following tasks:
 
 ## How to Use
 
-1. **Update File Paths**: Modify the `video_file_path` and `output_directory` variables in `transcribe-all.py` to reflect your local setup.
+1. **Update File Paths**: Modify the `video_file_path` and `output_directory` variables in `Video_to_Text_Transcription.py` to reflect your local setup.
 
 2. **Run the Script**: Execute the script via the command line:
 
     ```bash
-    python transcribe-all.py
+    python Video_to_Text_Transcription.py
     ```
 
 3. **View Output**: The transcribed text will be saved in the specified output directory.
